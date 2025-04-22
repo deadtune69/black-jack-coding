@@ -14,6 +14,17 @@ function startGame() {
     playerCards = getCards() + getCards();
     console.log("you have a total of " + playerCards)
     console.log
+    while(playerTotal < 21) {
+        let question = prompt("hit or stand?");
+        if(prompt = "hit") {
+            playerTotal = playerTotal + getCards;
+        }
+    }
+    if(playerTotal > 21) {
+        console.log("you lost");
+        break;
+
+    }
 }
 
 startGame();
